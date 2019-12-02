@@ -1,10 +1,3 @@
-// Package daemon exposes the functions that occur on the host server
-// that the Docker daemon is running.
-//
-// In implementing the various functions of the daemon, there is often
-// a method-specific struct for configuring the runtime behavior.
-package daemon // import "github.com/docker/docker/daemon"
-
 import (
 	"context"
 	"fmt"
